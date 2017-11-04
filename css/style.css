@@ -7,7 +7,6 @@
 
 /* body, p, hr, h1, h2,  */
 
-
 body {
     background-image: url("../images/extra_clean_paper.png");
     background-repeat: repeat;
@@ -39,7 +38,6 @@ h2 {
     color: #4aaaa5;
     font-weight: bold;
     font-size: 22px;
-    padding-bottom: 15px;
 }
 
 /* ^End - Main Styles
@@ -49,6 +47,7 @@ h2 {
 --------------------------------------------------------------------------*/
 
 /* navbar */
+
 .navbar-default {
     height: 90px;
     border-bottom: 2px;
@@ -82,25 +81,24 @@ h2 {
     width: 22.91%;
 }
 
-.nav  {
+.nav {
     float: right;
     font-size: 18px;
     padding-top: 34px;
     max-width: 100%;
-    margin-right:-10px;
+    margin-right: -10px;
 }
 
 .navbar a {
-    color: #999999 !important ;
+    color: #999999 !important;
 }
 
 .nav ul {
     width: 100%;
-    
 }
 
 .nav li {
-    float: left;    
+    float: left;
 }
 
 .nav li+li {
@@ -108,11 +106,11 @@ h2 {
     padding-left: 20px;
 }
 
-.nav li:nth-child(-n+2){
+.nav li:nth-child(-n+2) {
     padding-right: 20px;
 }
 
-.navbar-nav>li>a { 
+.navbar-nav>li>a {
     padding: 0px;
 }
 
@@ -133,10 +131,11 @@ h2 {
     padding: 0px 25px 15px 25px;
     margin-left: -13px;
     margin-right: 40px;
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
     border: 1px;
     border-style: solid;
-    border-color: #cccccc;    
+    border-color: #cccccc;
+    overflow: auto;
 }
 
 .connect {
@@ -153,6 +152,7 @@ h2 {
 }
 
 /* Portfolio Styling */
+
 .img-wrapper-1 img, .img-wrapper-2 img, .img-wrapper-3 img {
     max-width: 100%;
 }
@@ -189,10 +189,11 @@ h2 {
 }
 
 .centered:hover {
-        background-color: #3A8883;
+    background-color: #3A8883;
 }
 
 /* Contact Styling */
+
 label {
     font-weight: normal;
     font-size: 16px;
@@ -220,12 +221,12 @@ label {
 }
 
 .footer {
-    padding: 15px 10px;    
+    padding: 15px 10px;
     background-color: #666666;
     border-top: 8px;
-    border-top-style: solid;    
+    border-top-style: solid;
     border-top-color: #4aaaa5;
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 12px;
     text-align: center;
 }
@@ -238,184 +239,142 @@ label {
 /* ^End - Content
 --------------------------------------------------------------------------*/
 
-
-/* ^Media Queries 
+/* ^Media Queries
 --------------------------------------------------------------------------*/
 
-@media screen and (max-width: 980px){
-
+@media screen and (max-width: 980px) {
     /* Basic Styles 980px */
-    h2 { 
+    h2 {
         font-size: 18px;
     }
-
     /* Header Styles 980px */
-
     .container-fluid {
         width: 730px;
     }
-
     /* Content Styles 980px */
     .container {
         width: 730px;
     }
-
     .content {
         width: 67%;
         float: left;
     }
-
     /* Contact Styles 980px */
     .connect {
         float: left;
-        width: 30%;        
+        width: 30%;
     }
-
     .connect img {
         width: 31.75%;
         height: 31.75%;
     }
-
     /* Portfolio Styles 980px */
     .img-wrapper-1 img, .img-wrapper-2 img, .img-wrapper-3 img {
         width: 416px;
     }
-
     .img-wrapper-1 {
         padding-bottom: 25px;
     }
-
     .img-wrapper-2:first-child {
         padding-top: 0px;
     }
-
     .centered {
         width: 416px;
     }
 }
 
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
     /* Basic Styles 768px */
     h2 {
         font-size: 20px;
     }
-    
     /* Header Styles 768px */
-
     .container-fluid {
         width: 650px;
         margin: auto;
         overflow: auto;
     }
-
     .navbar-default .navbar-brand {
         width: 345px;
         padding-left: 10px;
         padding-right: 10px;
-    }        
-
-    .nav  {
+    }
+    .nav {
         float: right;
         margin-top: -85px;
         padding-top: 34px;
     }
-
     /* Content Styles 768px */
-
     .container {
         width: 650px;
     }
-
     .content {
         width: 650px;
         margin-bottom: 20px;
     }
-
     /* Contact Styles 768px */
-
     .connect {
         margin-left: 2px;
         margin-bottom: 100px;
         width: 650px;
     }
-
     .connect img {
         width: 15%;
     }
-
     /* Portfolio Styles 768px */
-
     .img-wrapper-1 img, .img-wrapper-2 img, .img-wrapper-3 img {
         width: 281px;
     }
-
     .img-wrapper-2 {
         padding-top: 0px;
     }
-
     .centered {
         width: 281px;
         top: 67%;
     }
 }
 
-@media screen and (max-width: 640px){
-
-    /* Basic Styles 640px */    
+@media screen and (max-width: 640px) {
+    /* Basic Styles 640px */
     h2 {
         font-size: 20px;
     }
-
-    /* Header Styles 640px */ 
-
+    /* Header Styles 640px */
     .navbar-default {
         height: 150px;
     }
-
     .container-fluid {
         width: 100%;
         margin: auto;
     }
-
     .navbar-default .navbar-brand {
         width: 100%;
     }
-    
-    .nav  {
+    .nav {
         float: none;
         margin-top: -15px;
         margin-left: 135px;
     }
-
     /* Content Styles 640px */
-
     .container {
         width: 500px;
         margin-left: 80px;
     }
-
     .content {
         width: 445px;
         margin-bottom: 20px;
     }
-
     /* Contact Styles 640px */
-
     .connect {
         width: 445px;
     }
-
-    /* Portfolio Styles 768px */ 
-
+    /* Portfolio Styles 768px */
     .img-wrapper-1 img, .img-wrapper-2 img, .img-wrapper-3 img {
         width: 445px;
     }
-
     .img-wrapper-2 {
         padding-top: 25px;
     }
-
     .centered {
         width: 392px;
     }
